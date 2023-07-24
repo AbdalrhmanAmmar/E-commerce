@@ -17,7 +17,7 @@ function Header1() {
           backgroundColor: "#2b3445",
         }}
       >
-        <Stack direction={"row"} alignItems={"center"}>
+        <Stack direction={"row"} alignItems={"center"} mx={"20px"}>
           <Typography
             sx={{
               mr: 2,
