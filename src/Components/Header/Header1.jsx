@@ -2,6 +2,9 @@ import { DarkModeOutlined, LightModeOutlined } from "@mui/icons-material";
 import { Box, IconButton, Stack, Typography, useTheme } from "@mui/material";
 import { useContext } from "react";
 import { ColorModeContext } from "../../Theme";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Header1() {
   const colorMode = useContext(ColorModeContext);
@@ -70,6 +73,25 @@ function Header1() {
               </IconButton>
             )}
           </div>
+          <TwitterIcon
+            sx={{
+              fontSize: "16px",
+              color: "#fff",
+            }}
+          />
+          <FacebookIcon
+            sx={{
+              fontSize: "16px",
+              mx: 1,
+              color: "#fff",
+            }}
+          />
+          <InstagramIcon
+            sx={{
+              fontSize: "16px",
+              color: "#fff",
+            }}
+          />
         </Stack>
       </Box>
     </>
